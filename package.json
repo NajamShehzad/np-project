@@ -1,0 +1,19 @@
+{
+  "name": "npproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently  \"nodemon app.js\" \"nodemon app2.js\" \"nodemon app3.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "concurrently": "^7.1.0",
+    "express": "^4.17.3",
+    "sha256": "^0.2.0"
+  }
+}
